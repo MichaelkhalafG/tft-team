@@ -1,0 +1,188 @@
+/** ===================================================
+Author: Michael khalaf
+=================================================== **/
+
+/**=================geniral====================**/
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    text-shadow: 2px 2px 5px black;
+}
+
+/**!=================geniral====================**/
+/**================= fixed-logo ====================**/
+.fixed-logo {
+    height: 96px;
+    width: 96px;
+    position: fixed;
+    right: 1vw;
+    border-radius: 50%;
+    bottom: 5vh;
+    z-index: 210;
+    background-image: url('../media/logos/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.arrow-class {
+    background-image: url('../media/logos/up-arrow.png') !important;
+}
+
+.fixed-logo-a {
+    position: fixed;
+    right: 1vw;
+    bottom: 5vh;
+    z-index: 200;
+    height: 96px;
+    width: 96px;
+    border: 15px dotted blue;
+    border-radius: 50%;
+    animation-name: fixed-logo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/**!================= fixed-logo ====================**/
+/**=================   nav-bar  ====================**/
+.header-logo {
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.header-links {
+    background-color: rgba(0, 0, 0, 10%);
+    border: 1px solid blue;
+    border-radius: 20%;
+}
+
+.header-links:hover {
+    background-color: blue;
+    color: black !important;
+    border-radius: 0%;
+}
+
+.header-links:active {
+    background-color: blue;
+    color: black !important;
+}
+
+.solid-nav {
+    background-color: rgba(0, 0, 0, 40%);
+    padding: 7px 0% !important;
+    transition: background-color 3s;
+    transition: padding 1s;
+}
+
+.name-span {
+    font-size: xx-large;
+}
+
+/**!=================   nav-bar  ====================**/
+/**=================   header   ====================**/
+.header-row {
+    background-color: black;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#myVideo1 {
+    position: absolute;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#myVideo2 {
+    position: absolute;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+}
+
+.hero {
+    position: absolute;
+    top: 40vh;
+    color: white;
+    z-index: 100;
+    margin-left: 15vw;
+}
+
+.hero-1 {
+    top: 10vh;
+}
+
+/**!=================   header   ====================**/
+/**=================   sec-1   ====================**/
+.sec-1-row {
+    background-image: url('../media/img/bg1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 35vh !important;
+}
+
+.sec-1-row img {
+    margin-top: -30vh;
+}
+
+/**!=================   sec-1   ====================**/
+/**=================   sec-2   ====================**/
+.sec-2 {
+    overflow: hidden;
+}
+
+/**!=================   sec-2   ====================**/
+/**=================   footer   ====================**/
+footer {
+    background-image: url('../media/img/map.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.footer-links a {
+    color: blue;
+    display: block;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+    padding-left: 5px;
+}
+
+.footer-links a:hover {
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border-bottom: 2px solid white;
+}
+
+.footer-links img {
+    height: 150px;
+    width: 150px;
+}
+
+#footer {
+    padding: 15px;
+    color: #f4f6fd;
+    background: black;
+}
+
+#footer .credits {
+    text-align: center;
+    color: #eaebf0;
+}
+
+/**!=================   footer  ====================**/
+/**=================   additional   ====================**/
+
+audio {
+    margin: 30px;
+    width: 30vw;
+    color: blue;
+}
+
+/**!=================   additional   ====================**/

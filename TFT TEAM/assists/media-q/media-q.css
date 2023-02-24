@@ -1,0 +1,92 @@
+/** ===================================================
+Author: Michael khalaf
+=================================================== **/
+
+@media screen and (max-width:650px) {
+
+    .fixed-logo {
+        height: 60px;
+        width: 60px;
+        right: 1vw;
+        bottom: 1vh;
+    }
+
+    .fixed-logo-a {
+        right: 1vw;
+        bottom: 1vh;
+        height: 60px;
+        width: 60px;
+        border: 8px dotted blue;
+    }
+
+    #myVideo1 {
+        display: none;
+    }
+
+    #myVideo2 {
+        display: block;
+    }
+
+    .solid-nav {
+        background-color: rgba(0, 0, 0, 0%);
+    }
+
+    .hero {
+        margin-left: 5vw;
+    }
+
+    .hero h3 {
+        font-size: small;
+    }
+
+    .hero-1 {
+        top: 0vh;
+    }
+
+    .hero a {
+        margin: 0 !important;
+        margin-top: 15px !important;
+
+    }
+
+    .name-span {
+        font-size: large;
+    }
+
+    .sec-1-row img {
+        margin-top: 0vh;
+    }
+
+    .sec-1-row {
+        overflow-x: hidden;
+        margin-top: 10vh !important;
+    }
+
+    h4 {
+        font-size: medium;
+    }
+
+    audio {
+        margin: 30px;
+        width: 40vw;
+    }
+
+}
+
+@media (min-width: 650px) and (max-width: 900px) {
+    .hero {
+        top: 20vh;
+    }
+
+    .hero-1 {
+        top: 0vh;
+    }
+
+
+}
+
+@media screen and (min-width:899.5px) {
+    .log-ptn-sm {
+        display: none !important;
+    }
+}
